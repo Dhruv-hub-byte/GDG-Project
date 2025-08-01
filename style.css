@@ -520,6 +520,9 @@
   .h-\[80px\] {
     height: 80px;
   }
+  .h-\[80vh\] {
+    height: 80vh;
+  }
   .h-\[83px\] {
     height: 83px;
   }
@@ -531,6 +534,9 @@
   }
   .h-\[100px\] {
     height: 100px;
+  }
+  .h-\[100vh\] {
+    height: 100vh;
   }
   .h-\[110px\] {
     height: 110px;
@@ -573,6 +579,9 @@
   }
   .h-\[700px\] {
     height: 700px;
+  }
+  .h-\[800vh\] {
+    height: 800vh;
   }
   .h-\[1000px\] {
     height: 1000px;
@@ -793,6 +802,9 @@
   .max-w-\[477px\] {
     max-width: 477px;
   }
+  .max-w-\[523px\] {
+    max-width: 523px;
+  }
   .max-w-\[540px\] {
     max-width: 540px;
   }
@@ -817,6 +829,9 @@
   .max-w-\[600px\] {
     max-width: 600px;
   }
+  .max-w-\[603px\] {
+    max-width: 603px;
+  }
   .max-w-\[609px\] {
     max-width: 609px;
   }
@@ -825,6 +840,9 @@
   }
   .max-w-\[660px\] {
     max-width: 660px;
+  }
+  .max-w-\[680px\] {
+    max-width: 680px;
   }
   .max-w-\[687px\] {
     max-width: 687px;
@@ -1165,6 +1183,9 @@
   .bg-\[\#F48C06\] {
     background-color: #F48C06;
   }
+  .bg-\[\#FFF2E1\] {
+    background-color: #FFF2E1;
+  }
   .bg-\[\#f3f4f6\] {
     background-color: #f3f4f6;
   }
@@ -1331,6 +1352,9 @@
   }
   .bg-\[url\(images\/skilline\.png\)\] {
     background-image: url(images/skilline.png);
+  }
+  .bg-none {
+    background-image: none;
   }
   .from-\[\#0d1412\] {
     --tw-gradient-from: #0d1412;
@@ -2443,6 +2467,11 @@
       font-size: 32px;
     }
   }
+  .sm\:text-\[42px\] {
+    @media (width >= 40rem) {
+      font-size: 42px;
+    }
+  }
   .sm\:text-\[48px\] {
     @media (width >= 40rem) {
       font-size: 48px;
@@ -2698,6 +2727,11 @@
     @media (width >= 48rem) {
       --tw-font-weight: var(--font-weight-semibold);
       font-weight: var(--font-weight-semibold);
+    }
+  }
+  .md\:text-\[46\] {
+    @media (width >= 48rem) {
+      color: 46;
     }
   }
   .md\:text-yellow-500 {
@@ -3049,9 +3083,54 @@
       font-size: 44px;
     }
   }
+  .lg\:text-\[50px\] {
+    @media (width >= 64rem) {
+      font-size: 50px;
+    }
+  }
   .lg\:text-\[60px\] {
     @media (width >= 64rem) {
       font-size: 60px;
+    }
+  }
+  .xl\:flex {
+    @media (width >= 80rem) {
+      display: flex;
+    }
+  }
+  .xl\:hidden {
+    @media (width >= 80rem) {
+      display: none;
+    }
+  }
+  .xl\:bg-\[url\(\'images\/girl\.png\'\)\] {
+    @media (width >= 80rem) {
+      background-image: url('images/girl.png');
+    }
+  }
+  .xl\:text-center {
+    @media (width >= 80rem) {
+      text-align: center;
+    }
+  }
+  .xl\:text-\[24px\] {
+    @media (width >= 80rem) {
+      font-size: 24px;
+    }
+  }
+  .xl\:text-\[54px\] {
+    @media (width >= 80rem) {
+      font-size: 54px;
+    }
+  }
+  .\32 xl\:flex {
+    @media (width >= 96rem) {
+      display: flex;
+    }
+  }
+  .\32 xl\:hidden {
+    @media (width >= 96rem) {
+      display: none;
     }
   }
   .dark\:text-yellow-300 {
